@@ -9,5 +9,6 @@ export const Header = () =>{
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <button onClick={()=>router.push("/contact")}>Contact</button>
+        <button onClick={()=>router.push("/products")}>Products</button>
     </header>
 }
